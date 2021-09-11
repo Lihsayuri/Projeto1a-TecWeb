@@ -1,0 +1,72 @@
+<!-- tirei class="form-card" do form -->
+<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+
+<div class="card">
+  <div class="container_button">
+    <form method="post" action="/delete">
+      <input name="id" type="hidden" value="{id}"/>
+      <div>
+        <button class="btn btn-info btn-lg delete_button" type="submit"> Deletar</button>
+      </div>
+    </form>
+    <div>
+      <button type="button" class="btn btn-info btn-lg delete_button" data-toggle="modal" data-target="#{id}">Editar</button>
+    </div>
+    <button class="btn btn-info btn-lg delete_button" onclick="document.getElementById('{id}').src='../../img/pic_bulbon.gif'">Do it</button>
+      <img id='{id}' src="../../img/pic_bulboff.gif" style="width:10px">
+    <button class="btn btn-info btn-lg delete_button" onclick="document.getElementById('{id}').src='../../img/pic_bulboff.gif'">After</button>
+
+  </div>
+  
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <div class="container_title">
+          <h3 class="card-title">{title}</h3>
+        </div>
+      </div>
+
+      <div class="flip-card-back">
+        <div class="card-content">
+          <p>
+            {details}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id='{id}' role="dialog">
+  <div class="modal-dialog">
+  
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <form method="post" action="/edit">
+          <input name="id" type="hidden" value="{id}"/>
+          <input
+          class="form-card-title"
+          type="text"
+          name="titulo"
+          value="{title}"
+          />
+
+          <textarea
+          class="autoresize"
+          name="detalhes"
+          > {details}</textarea>
+
+          <button class="btn" type="submit">Editar</button>
+        </form>
+      </div>
+<!-- 
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div> -->
+    </div>
+    
+  </div>
+</div>
+
