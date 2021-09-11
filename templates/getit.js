@@ -52,8 +52,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // xhr.addEventListener('load', listener);
   // xhr.addEventListener('error', listener);
 
-  const xhr = new XMLHttpRequest();
-  xhr.open('GET', 'localhost:8080');
+  // const xhr = new XMLHttpRequest();
+  // xhr.open('GET', 'localhost:8080');
 
 });
 
