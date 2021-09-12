@@ -6,7 +6,7 @@ Foram implementadas todas as quatro funções: GET, POST, DELETE e EDIT com o us
 ![Get-it-liviasm1](https://user-images.githubusercontent.com/62647438/132996385-ddce858b-064d-4ed4-8a1d-43398dca0305.gif)
 
 
-Como fontes do projeto foram utilizados os Handouts de aula e o w3schools (códigos de algumas funcionalidades que foram adaptados).
-*Sites: https://barbaratieko.github.io/tecweb/
-        https://www.w3schools.com/js/js_examples.asp
-        https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_lightbulb
+Como fontes do projeto foram utilizados os Handouts de aula e o w3schools (códigos de algumas funcionalidades que foram adaptados).<br/>
+Sites: https://barbaratieko.github.io/tecweb/ <br/>
+        https://www.w3schools.com/js/js_examples.asp <br/>
+        https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_lightbulb <br/>
