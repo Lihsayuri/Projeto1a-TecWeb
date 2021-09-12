@@ -29,7 +29,7 @@ def read_file(filepath):
     #         lido = text.read()
     #         return lido
     # else:
-    with open(filepath, "rb", encoding="UTF-8") as file:
+    with open(filepath, "rb") as file:
         lido = file.read()
         return lido        
 
