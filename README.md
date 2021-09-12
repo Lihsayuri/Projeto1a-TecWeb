@@ -7,6 +7,6 @@ Foram implementadas todas as quatro funções: GET, POST, DELETE e EDIT com o us
 
 
 Como fontes do projeto foram utilizados os Handouts de aula e o w3schools (códigos de algumas funcionalidades que foram adaptados).
-Sites: https://barbaratieko.github.io/tecweb/
-       https://www.w3schools.com/js/js_examples.asp
-       https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_lightbulb
+*Sites: https://barbaratieko.github.io/tecweb/
+        https://www.w3schools.com/js/js_examples.asp
+        https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_lightbulb
